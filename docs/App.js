@@ -4,7 +4,7 @@ import {
   createRouter,
   createView,
   Link,
-} from 'hoc-router'
+} from 'rrx'
 import Index from './Index'
 import About from './About'
 import Post from './Post'

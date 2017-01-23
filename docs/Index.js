@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { createView } from 'hoc-router'
+import { createView } from 'rrx'
 
 const Index = (props) => (
   <div>

@@ -11,7 +11,7 @@ module.exports = {
 
   resolve: {
     alias: {
-      'hoc-router': path.join(__dirname, 'src')
+      'rrx': path.join(__dirname, 'src')
     }
   },
 

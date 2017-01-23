@@ -2,7 +2,7 @@
 import React from 'react'
 import {
   createView
-} from 'hoc-router'
+} from 'rrx'
 
 const MultiMatch = ({ params }) => (
   <div>

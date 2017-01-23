@@ -1,10 +1,12 @@
 
-# React HOC Router
+# Rrx
 
-Simple routing for React with higher order components
+React higher order component router
+
+    Simple routing for React with higher order components
 
 ```sh
-npm i -S react-hoc-router
+npm i -S rrx
 ```
 
 ## Example Usage
@@ -12,10 +14,10 @@ npm i -S react-hoc-router
 ```js
 import React from 'react'
 import {
-createRouter,
-createView,
-Link
-} from 'react-hoc-router'
+  createRouter,
+  createView,
+  Link
+} from 'rrx'
 
 const Home = createView((props) => (
   <div>
@@ -97,14 +99,20 @@ import {
   Router,
   View,
   Link
-} from 'react-hoc-router'
+} from 'rrx'
 ```
 
 ---
 
 Name:
 
-react-hoc-router
+    react-hoc-router
+
+rrx
+
+Rrx
+
+  rhr
 
 ~~reroute~~
 ~~review~~

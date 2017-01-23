@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { createView } from 'hoc-router'
+import { createView } from 'rrx'
 import Debug from './Debug'
 
 const Post = (props) => (
