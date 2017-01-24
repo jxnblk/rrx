@@ -3,8 +3,6 @@
 
 React higher order component router
 
-    Simple routing for React with higher order components
-
 ```sh
 npm i -S rrx
 ```
