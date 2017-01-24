@@ -4,11 +4,6 @@ import getMatch from './getMatch'
 
 const createView = (Component) => {
   class RouteComponent extends React.Component {
-    componentDidMount () {
-      if (this.props.scroll === false) return
-      window.scrollTo(0, 0)
-    }
-
     render () {
       const { pattern, ...props } = this.props
       const { location } = this.context
