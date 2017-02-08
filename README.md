@@ -102,20 +102,6 @@ import {
 
 ---
 
-Name:
-
-    react-hoc-router
-
-rrx
-
-Rrx
-
-  rhr
-
-~~reroute~~
-~~review~~
-~~rematch~~
-
 To do:
 
 - [ ] Parse location.search querystring
