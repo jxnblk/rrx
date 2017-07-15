@@ -1,6 +1,7 @@
-
 import React from 'react'
-import createHistory from './createHistory'
+// import createHistory from './createHistory'
+import createHistory from 'history/createBrowserHistory'
+import { object } from 'prop-types'
 
 const createRouter = (Component) => {
   class RouterComponent extends React.Component {
@@ -19,7 +20,7 @@ const createRouter = (Component) => {
     }
 
     componentDidMount () {
-      const history = createHistory()
+      const history = createHistory(this.props.options)
       const { location } = window
       this.setState({ history, location })
       this.unlisten = history.listen(this.handleHistoryChange)
@@ -46,6 +47,10 @@ const createRouter = (Component) => {
   RouterComponent.childContextTypes = {
     history: React.PropTypes.object,
     location: React.PropTypes.object
+  }
+
+  RouterComponent.propTypes = {
+    options: object
   }
 
   return RouterComponent

@@ -1,3 +1,4 @@
+// Minimal history implementation
 
 const createHistory = () => {
   let history = {}

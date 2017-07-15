@@ -1,9 +1,10 @@
 {
   "name": "rrx",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Minimal React higher order component router",
+  "main": "dist/index.js",
   "scripts": {
+    "prepublish": "babel src -d dist",
     "start": "webpack-dev-server"
   },
   "keywords": [],
@@ -12,16 +13,19 @@
   "dependencies": {
     "history": "^4.5.1",
     "path-to-regexp": "^1.7.0",
+    "prop-types": "^15.5.10",
     "react": "^15.4.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "react-dom": "^15.4.2",
-    "webpack": "^2.2.0",
+    "webpack": "^3.3.0",
     "webpack-dev-server": "^2.2.0"
   }
 }
