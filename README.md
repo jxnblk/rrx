@@ -1,5 +1,5 @@
 
-# Rrx
+# RRX
 
 React higher order component router
 
@@ -100,28 +100,5 @@ import {
 } from 'rrx'
 ```
 
----
-
-Name:
-
-    react-hoc-router
-
-rrx
-
-Rrx
-
-  rhr
-
-~~reroute~~
-~~review~~
-~~rematch~~
-
-To do:
-
-- [ ] Parse location.search querystring
-- [ ] Look into Miss/NotFound
-
----
 
 MIT License
-
