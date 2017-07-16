@@ -1,6 +1,6 @@
 {
   "name": "rrx",
-  "version": "1.0.0-2",
+  "version": "1.0.0-3",
   "description": "Minimal React routing higher order components",
   "main": "dist/index.js",
   "scripts": {
