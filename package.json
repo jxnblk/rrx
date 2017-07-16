@@ -1,7 +1,7 @@
 {
   "name": "rrx",
   "version": "1.0.0-2",
-  "description": "Minimal React higher order component router",
+  "description": "Minimal React routing higher order components",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "babel src -d dist",
