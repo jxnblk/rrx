@@ -1,4 +1,3 @@
-
 import React from 'react'
 
 const Debug = (props) => (
@@ -6,4 +5,3 @@ const Debug = (props) => (
 )
 
 export default Debug
-

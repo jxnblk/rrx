@@ -1,4 +1,3 @@
-
 import React from 'react'
 import {
   createView
@@ -12,4 +11,3 @@ const MultiMatch = ({ params }) => (
 )
 
 export default createView(MultiMatch)
-

@@ -1,4 +1,3 @@
-
 import React from 'react'
 import {
   createRouter,
@@ -40,4 +39,3 @@ class App extends React.Component {
 }
 
 export default createRouter(App)
-

@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { createView } from 'rrx'
 
@@ -9,4 +8,3 @@ const Index = (props) => (
 )
 
 export default createView(Index)
-

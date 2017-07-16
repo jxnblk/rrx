@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { createView } from 'rrx'
 import Debug from './Debug'
@@ -11,4 +10,3 @@ const Post = (props) => (
 )
 
 export default createView(Post)
-
