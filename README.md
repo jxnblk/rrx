@@ -1,7 +1,7 @@
 
 # RRX
 
-Minimal React routing higher order components
+Minimal React router using higher order components
 
 ```sh
 npm i -S rrx
@@ -42,9 +42,11 @@ class App extends React.Component {
     return (
       <div>
         <nav>
-          <Link href='/'>Home</Link>
-          <Link href='/about'>About</Link>
-          <Link href='/posts/hello'>Hello Post</Link>
+          <ul>
+            <li><Link href='/'>Home</Link></li>
+            <li><Link href='/about'>About</Link></li>
+            <li><Link href='/posts/hello'>Hello Post</Link></li>
+          </ul>
         </nav>
         <Home pattern='/' />
         <About pattern='/about' />
@@ -134,12 +136,12 @@ A Link component that uses the history context to transition between routes usin
 </Link>
 ```
 
+---
+
 [GitHub](https://github.com/jxnblk/rrx/)
 [Made by Jxnblk](http://jxnblk.com)
 
 [0]: https://npmjs.com/package/history
 [1]: https://npmjs.com/package/path-to-regexp
-
----
 
 MIT License

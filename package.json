@@ -5,9 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "babel src -d dist",
-    "start": "webpack-dev-server",
-    "_docs": "webpack -p",
-    "docs": "doc README.md -c docs/config.js -d docs",
+    "start": "doc README.md -c docs/config.js -d docs",
     "test": "ava"
   },
   "keywords": [
@@ -29,16 +27,13 @@
     "ava": "^0.21.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.22.1",
-    "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "babel-register": "^6.24.1",
     "live-doc": "^1.0.0-9",
     "react-dom": "^15.4.2",
-    "react-test-renderer": "^15.6.1",
-    "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.2.0"
+    "react-test-renderer": "^15.6.1"
   },
   "ava": {
     "require": [
