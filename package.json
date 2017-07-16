@@ -6,6 +6,7 @@
   "scripts": {
     "prepublish": "babel src -d dist",
     "start": "webpack-dev-server",
+    "docs": "webpack -p",
     "test": "ava"
   },
   "keywords": [
