@@ -1,4 +1,3 @@
-
 import React from 'react'
 import createView from './createView'
 
@@ -11,4 +10,3 @@ const View = ({
 )
 
 export default createView(View)
-
