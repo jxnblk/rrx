@@ -1,5 +1,5 @@
-
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const createLink = (Component) => {
   class Link extends React.Component {
@@ -39,12 +39,11 @@ const createLink = (Component) => {
   }
 
   Link.contextTypes = {
-    history: React.PropTypes.object,
-    location: React.PropTypes.object
+    history: PropTypes.object,
+    location: PropTypes.object
   }
 
   return Link
 }
 
 export default createLink
-

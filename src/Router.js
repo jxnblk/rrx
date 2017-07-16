@@ -1,4 +1,3 @@
-
 import React from 'react'
 import createRouter from './createRouter'
 
@@ -11,4 +10,3 @@ const Router = ({
 )
 
 export default createRouter(Router)
-

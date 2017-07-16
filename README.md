@@ -1,7 +1,7 @@
 
 # RRX
 
-React higher order component router
+Minimal React routing higher order components
 
 ```sh
 npm i -S rrx
@@ -65,40 +65,32 @@ export default createRouter(App)
 ### `createRouter`
 
 Higher order component to create a wrapper Router component.
-This component creates a [history](https://npmjs.com/package/history) object and provides context for both `history` and `location`.
+This component creates a [history][0] object and provides context for both `history` and `location`.
 
 Router components provide these objects through context:
 
-- `history` - the history object from [history](https://npmjs.com/package/history)
-- `location` - the location object from [history](https://npmjs.com/package/history)
+- `history` - the history object from [history][0]
+- `location` - the location object from [history][0]
 
 ### `createView`
 
-Creates a view component that accepts a `pattern` prop for route matching. If the location matches the pattern, the component will render with `params` and `search` props. If it does not match, it will not render.
+Creates a view component that accepts a `pattern` prop for route matching.
+If the location matches the pattern, the component will render with `params` and `search` props.
+If it does not match, it will not render.
 
 View component props:
-- `pattern` - a URL pattern to match against. Uses [path-to-regexp](https://www.npmjs.com/package/path-to-regexp)
+- `pattern` - a URL pattern to match against. Uses [path-to-regexp][1]
 
 Props provided by the HOC:
 
 - `params` - object of URL parameters from the given `pattern`.
 - `search` - the `location.search` string
 
-### `createLink`
+### `<Link />`
 
-Creates a Link component that uses the history context to transition between routes using the browser History API.
+A Link component that uses the history context to transition between routes using the browser History API.
 
-### Base Components
+[0]: https://npmjs.com/package/history
+[1]: https://npmjs.com/package/path-to-regexp
 
-In addition to the higher order components, each is available as a base component – though these are generally less convenient to use for the Router and views.
-
-```js
-import {
-  Router,
-  View,
-  Link
-} from 'rrx'
-```
-
-
-MIT License
+[MIT License](LICENSE.md)
