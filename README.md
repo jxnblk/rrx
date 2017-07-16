@@ -1,7 +1,7 @@
 
 # RRX
 
-React higher order component router
+Minimal React routing higher order components
 
 ```sh
 npm i -S rrx
@@ -86,7 +86,7 @@ Props provided by the HOC:
 - `params` - object of URL parameters from the given `pattern`.
 - `search` - the `location.search` string
 
-### `Link`
+### `<Link />`
 
 A Link component that uses the history context to transition between routes using the browser History API.
 
